@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1541929016 source:d:\cpp_code\sdl_test\main.cpp
+1541963552 source:d:\cpp_code\sdl_test\main.cpp
 	<stdio.h>
 	<iostream>
 	<SDL.h>
@@ -349,12 +349,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1541925706 d:\cpp_code\sdl_test\include\prepclass.h
+1541963332 d:\cpp_code\sdl_test\include\prepclass.h
 	<SDL.h>
 	"SurfaceLoader.h"
 	"MainLoop.h"
 
-1541925782 source:d:\cpp_code\sdl_test\src\prepclass.cpp
+1541963456 source:d:\cpp_code\sdl_test\src\prepclass.cpp
 	"PrepClass.h"
 	"MainLoop.h"
 	<stdio.h>
@@ -375,13 +375,14 @@
 	<iostream>
 	<string>
 
-1541928402 d:\cpp_code\sdl_test\include\mainloop.h
+1541961224 d:\cpp_code\sdl_test\include\mainloop.h
 	<SDL.h>
 
-1541928584 source:d:\cpp_code\sdl_test\src\mainloop.cpp
+1541962984 source:d:\cpp_code\sdl_test\src\mainloop.cpp
 	"MainLoop.h"
 	<SDL.h>
 	<iostream>
+	"PrepClass.h"
 
 1541928612 source:d:\cpp_code\sdl_test\src\keydownclass.cpp
 	"KeyDownClass.h"

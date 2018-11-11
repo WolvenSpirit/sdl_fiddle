@@ -12,6 +12,7 @@ PrepClass::PrepClass()
         //construct ...
         window = NULL;
         screenSurface = NULL;
+        running_surface = NULL;
 }
 
 PrepClass::start_sdl()
@@ -49,8 +50,16 @@ PrepClass::start_sdl()
 
 PrepClass::refresh()
 {
+    if(!running_surface)
+    {
         SDL_BlitSurface(ImageSurface, NULL, screenSurface, NULL);
         SDL_UpdateWindowSurface(window);
+    }
+    else
+    {
+        SDL_BlitSurface(ImageSurface, NULL, running_surface, NULL);
+        SDL_UpdateWindowSurface(window);
+    }
 }
 
 PrepClass::~PrepClass()
