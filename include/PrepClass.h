@@ -16,6 +16,7 @@ class PrepClass: public SurfaceLoader
         ~PrepClass();
 
         start_sdl();
+        refresh();
 
     protected:
 

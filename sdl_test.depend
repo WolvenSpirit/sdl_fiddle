@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1541525776 source:d:\cpp_code\sdl_test\main.cpp
+1541929016 source:d:\cpp_code\sdl_test\main.cpp
 	<stdio.h>
 	<iostream>
 	<SDL.h>
@@ -349,28 +349,46 @@
 	"begin_code.h"
 	"close_code.h"
 
-1541525736 d:\cpp_code\sdl_test\include\prepclass.h
+1541925706 d:\cpp_code\sdl_test\include\prepclass.h
 	<SDL.h>
 	"SurfaceLoader.h"
 	"MainLoop.h"
 
-1541525734 source:d:\cpp_code\sdl_test\src\prepclass.cpp
+1541925782 source:d:\cpp_code\sdl_test\src\prepclass.cpp
 	"PrepClass.h"
 	"MainLoop.h"
 	<stdio.h>
 	<iostream>
 	<SDL.h>
 
-1541426844 d:\cpp_code\sdl_test\include\surfaceloader.h
+1541925102 d:\cpp_code\sdl_test\include\surfaceloader.h
 	<SDL.h>
+	<stdio.h>
+	<iostream>
+	<string>
 
-1541525734 source:d:\cpp_code\sdl_test\src\surfaceloader.cpp
+1541925516 source:d:\cpp_code\sdl_test\src\surfaceloader.cpp
 	"SurfaceLoader.h"
 	<SDL.h>
 	<stdio.h>
 	"MainLoop.h"
 	<iostream>
+	<string>
 
-1541525982 d:\cpp_code\sdl_test\include\mainloop.h
+1541928402 d:\cpp_code\sdl_test\include\mainloop.h
+	<SDL.h>
+
+1541928584 source:d:\cpp_code\sdl_test\src\mainloop.cpp
+	"MainLoop.h"
+	<SDL.h>
+	<iostream>
+
+1541928612 source:d:\cpp_code\sdl_test\src\keydownclass.cpp
+	"KeyDownClass.h"
+	<SDL.h>
+	<iostream>
+	<stdio.h>
+
+1541927840 d:\cpp_code\sdl_test\include\keydownclass.h
 	<SDL.h>
 

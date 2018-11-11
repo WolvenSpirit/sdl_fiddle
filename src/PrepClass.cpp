@@ -40,11 +40,17 @@ PrepClass::start_sdl()
 
             SDL_UpdateWindowSurface( window );
 
-            int milisecondsVar = 3000;
+            int milisecondsVar = 300;
 
             SDL_Delay( milisecondsVar );
         }
     }
+}
+
+PrepClass::refresh()
+{
+        SDL_BlitSurface(ImageSurface, NULL, screenSurface, NULL);
+        SDL_UpdateWindowSurface(window);
 }
 
 PrepClass::~PrepClass()

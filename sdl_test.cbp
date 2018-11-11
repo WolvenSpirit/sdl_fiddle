@@ -38,9 +38,13 @@
 			<Add option="-lmingw32 -lSDL2main -lSDL2" />
 			<Add directory="D:/CPP_code/mingw_libs/sdl2_mingw32/lib" />
 		</Linker>
+		<Unit filename="include/KeyDownClass.h" />
+		<Unit filename="include/MainLoop.h" />
 		<Unit filename="include/PrepClass.h" />
 		<Unit filename="include/SurfaceLoader.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/KeyDownClass.cpp" />
+		<Unit filename="src/MainLoop.cpp" />
 		<Unit filename="src/PrepClass.cpp" />
 		<Unit filename="src/SurfaceLoader.cpp" />
 		<Extensions>
